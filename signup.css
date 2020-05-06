@@ -1,0 +1,126 @@
+body{
+    background-color:#FFF;
+    color: #C1C3C6;
+    opacity: 1;
+    font-weight: 400;
+    line-height: 1.5;
+    font-family: Circular, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    display:block;
+    flex-direction:row;
+    margin:0;
+    box-sizing: border-box;
+    min-height: 100vh;
+}
+
+.sign-up-header{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin:20px;
+}
+
+.sign-up-body{
+    border-top:1px solid #dfe0e6;
+    display:block;
+    justify-content: center;
+}
+
+.content{
+    margin: 0 auto;
+    max-width: 26.875em;
+}
+
+.facebook-or-container{
+    margin: 20px;
+    text-align:center;
+}
+
+.btn-facebook{
+    color: #FFF;
+    background-color: #3B5998;
+    font-size: 14px;
+    line-height: 1;
+    border-radius: 500px;
+    padding: 16px 48px 18px;
+    border-width: 0;
+    letter-spacing: 2px;
+    min-width: 160px;
+    text-transform: uppercase;
+    white-space: normal;
+}
+   
+
+.line-thr{
+    display: block;
+    font-size: .875em;
+    margin-bottom: 1em;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    z-index: 1;
+    color:black!important;
+}
+
+.line-thr::before{
+    width: 40px;
+    height: 10px;
+    background-color: #FFF;
+    content: '';
+    margin: -5px 0 0 -20px;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    z-index: -1;
+}
+
+.line-thr::after{
+    border-bottom: 1px solid #dfe0e6;
+    content: '';
+    display: block;
+    position: absolute;
+    top: 49%;
+    width: 100%;
+    z-index: -2;
+}
+
+
+.form-control{
+    margin-bottom: 1em;
+    height: 48px;
+    padding: 0 .75em;
+    background-color: #FFF;
+    border: 1px solid #dfe0e6;
+    color: #1c1c1f;
+    font-size: .9375em;
+    line-height: normal;
+    margin: 0;
+    border-radius: 2px;
+    -webkit-appearance: none;
+    padding: 1em .75em .6875em;
+    width: 100%;
+}
+
+h2{
+    font-weight: 900;
+    line-height: 1.2;
+    margin: 0 0 .5em;
+    margin-bottom: 0.5em;
+    text-rendering: optimizelegibility;
+    color: #1c1c1f;
+    margin-bottom: 1em;
+    font-size: 18px;
+}
+
+.form-control::placeholder{
+    transition: color 0.5s 0.1s ease;
+    color: #88898c;
+}
+
+label{
+   color: #88898c;
+    display: block;
+    font-size: .9375em;
+    text-align: left;
+}
+
