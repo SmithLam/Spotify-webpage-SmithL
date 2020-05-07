@@ -124,3 +124,19 @@ label{
     text-align: left;
 }
 
+
+.btn-success{
+    color: #FFF;
+    background-color: #1ED760;
+    font-size: 14px;
+    line-height: 1;
+    border-radius: 500px;
+    padding: 16px 48px 18px;
+    border-width: 0;
+    letter-spacing: 2px;
+    min-width: 320px;
+    text-transform: uppercase;
+    white-space: normal;
+    margin-bottom: 14px;
+}
+   
