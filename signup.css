@@ -45,7 +45,7 @@ body{
     padding: 16px 48px 18px;
     border-width: 0;
     letter-spacing: 2px;
-    min-width: 160px;
+    min-width: 320px;
     text-transform: uppercase;
     white-space: normal;
 }
@@ -139,4 +139,17 @@ label{
     white-space: normal;
     margin-bottom: 14px;
 }
-   
+
+.account-login{
+    font-size: .9375em;
+    display: block;
+	margin: 0 0 1em;
+    text-align: center;
+    color: #1c1c1f;
+	margin-bottom: 1em;
+}
+
+a:hover{
+    color: #1ED760;
+    text-decoration: none;
+}
